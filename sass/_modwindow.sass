@@ -1,0 +1,64 @@
+
+.modal 
+  position: absolute
+  background: #A0CD63
+  width: 600px
+  min-height: 400px
+  margin: 0
+  padding: 0
+  transition: all 600ms cubic-bezier(0.86, 0, 0.07, 1)
+  top: 100%
+  position: fixed
+  left: 0
+  text-align: center
+  border-radius: 30px
+  left: 50%
+  transform: translate(-50% )
+  
+  div
+    .mo1
+      position: absolute
+      right: 0
+      bottom: 0
+    .mo2
+      position: absolute
+      top: 0
+      left: 0
+      height: 400px
+    .mo3
+      position: absolute
+      top: 40px
+      right: 40px
+
+  
+.cont.modal-open .modal 
+  top: 0
+.btn 
+  background: #2D2784
+  padding: 10px 25px
+  display: inline-block
+  border-radius: 25px
+  margin: 20px 0
+  color: #fff
+  position: relative
+  transition: all .4s ease
+  cursor: pointer
+  
+  &:hover 
+    box-shadow: 0 3px 15px rgba(0,0,0,0.2)
+.js-click-modal
+    color: white
+    &:hover
+        color: red
+.header
+    padding: 100px
+    color: white
+    text-align: center
+    position: relative
+.body_text
+    padding: 30px
+    color: white
+    position: relative
+    font-weight: 200
+
+ 

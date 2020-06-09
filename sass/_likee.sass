@@ -1,0 +1,46 @@
+.heart 
+    width: 25px
+    height: 20px
+    background-color: #4097C6
+    position: relative
+    &:before,
+    &:after
+        content: ""
+        position: absolute 
+        left: 12px 
+        top: 0
+        width: 12px 
+        height: 20px
+        background: white
+        border-radius: 12px 12px 0 0
+        transform: rotate(-45deg)
+        transform-origin: 0 100%
+
+    &:after 
+        left: 0
+        transform: rotate(45deg) 
+        transform-origin: 100% 100%
+        
+        
+.heart__activ
+    width: 25px
+    height: 20px
+    background-color: #4097C6
+    position: relative
+    &:before,
+    &:after
+        content: ""
+        position: absolute 
+        left: 12px 
+        top: 0
+        width: 12px 
+        height: 20px
+        background: red
+        border-radius: 12px 12px 0 0
+        transform: rotate(-45deg)
+        transform-origin: 0 100%
+    
+    &:after 
+        left: 0
+        transform: rotate(45deg) 
+        transform-origin: 100% 100%
